@@ -46,6 +46,10 @@
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-opentracing</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
       <artifactId>quarkus-mongodb-panache</artifactId>
     </dependency>
     <dependency>
@@ -53,13 +57,8 @@
       <artifactId>quarkus-resteasy-jackson</artifactId>
     </dependency>
     <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-smallrye-opentracing</artifactId>
-    </dependency>
-    <dependency>
       <groupId>io.opentracing.contrib</groupId>
-      <artifactId>opentracing-mongo-driver</artifactId>
-      <version>0.1.5</version>
+      <artifactId>opentracing-mongo-common</artifactId>
     </dependency>
   </dependencies>
   <build>
